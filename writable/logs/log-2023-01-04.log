@@ -1,0 +1,1424 @@
+CRITICAL - 2023-01-04 05:05:29 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 05:18:04 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 05:34:07 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 05:37:38 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 05:52:12 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 05:57:59 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 05:58:15 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 07:19:18 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 07:24:08 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:09 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:11 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:13 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:14 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:29 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:31 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:24:33 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 07:33:07 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 08:14:35 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:14:38 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:14:40 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:14:46 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:15:13 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:15:14 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:15:16 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:16:04 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:16:05 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:16:07 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:16:13 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:18:16 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:18:17 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:18:19 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:18:50 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 08:20:55 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:20:57 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:20:59 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:21:05 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:21:36 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 08:27:02 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 08:28:49 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 08:29:09 --> Use of undefined constant nulll - assumed 'nulll' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Entregador.php on line 20.
+ 1 APPPATH\Controllers\Entregador.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant nulll - assumed \'nulll\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Entregador.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:29:44 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:29:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:29:45 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:29:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:30:05 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:30:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:30:06 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:30:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:30:06 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:30:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:30:07 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:30:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:30:07 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'flash_entregas', 3306, '', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'flash_entregas' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#3 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#5 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-04 08:30:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'flash_entregas'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 3 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 08:38:22 --> mysqli_sql_exception: Table 'flash_entregas.entregador' doesn't exist in engine in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 08:38:22 --> Table 'flash_entregas.entregador' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 5 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 09:45:22 --> mysqli_sql_exception: Table 'flash_entregas.entregador' doesn't exist in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 09:45:22 --> Table 'flash_entregas.entregador' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 5 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 09:48:50 --> mysqli_sql_exception: Table 'flash_entregas.entregador' doesn't exist in engine in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 09:48:50 --> Table 'flash_entregas.entregador' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 5 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 09:48:52 --> mysqli_sql_exception: Table 'flash_entregas.entregador' doesn't exist in engine in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 09:48:52 --> Table 'flash_entregas.entregador' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 5 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 10:20:49 --> mysqli_sql_exception: Unknown column 'endereco.bairro' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 10:20:49 --> Unknown column 'endereco.bairro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 5 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 10:20:50 --> mysqli_sql_exception: Unknown column 'endereco.bairro' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(NULL)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->index()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 10:20:50 --> Unknown column 'endereco.bairro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `entregador`.`cd_entregador`, `entregador`.`nm_entregador` as `nome`, `entregador`.`dt_nascimento` as `nascimento`, `entregador`.`ds_email` as `email`, `endereco`.`cep` as `cep`, `endereco`.`bairro` as `bairro`, `endereco`.`cidade` as `cidade`, `endereco`.`uf` as `uf`, `endereco`.`cidade` as `cidade`
+FROM `entregador`
+JOIN `endereco` ON `endereco`.`cd_endereco` = `endereco`.`cd_endereco`', [], false)
+ 5 APPPATH\Models\JoinModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(24): App\Models\JoinModel->showAddressDeliveryman(null)
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:32:26 --> Undefined index: cd_endereco
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_endereco', 'APPPATH\\Controllers\\Entregador.php', 80, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:32:36 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 80, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:32:40 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 80, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:45:59 --> array_unique() expects parameter 1 to be array, string given
+in APPPATH\Views\entregador.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() expects parameter 1 to be array, string given', 'APPPATH\\Views\\entregador.php', 57, [...])
+ 2 APPPATH\Views\entregador.php(57): array_unique('1', 0)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 6 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:49:32 --> Call to undefined function __toString()
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 4 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:49:44 --> Call to undefined function toString()
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 4 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:49:52 --> syntax error, unexpected 'unset' (T_UNSET)
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 3 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:50:03 --> syntax error, unexpected 'unset' (T_UNSET)
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 3 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:50:04 --> syntax error, unexpected 'unset' (T_UNSET)
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 3 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:50:05 --> syntax error, unexpected 'unset' (T_UNSET)
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 3 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:51:20 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\entregador.php on line 57.
+ 1 APPPATH\Views\entregador.php(57): array_unique([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 5 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:51:38 --> array_unique() expects parameter 1 to be array, string given
+in APPPATH\Views\entregador.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() expects parameter 1 to be array, string given', 'APPPATH\\Views\\entregador.php', 57, [...])
+ 2 APPPATH\Views\entregador.php(57): array_unique('1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 6 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:51:55 --> Object of class stdClass could not be converted to float
+in APPPATH\Views\entregador.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to float', 'APPPATH\\Views\\entregador.php', 57, [...])
+ 2 APPPATH\Views\entregador.php(57): array_unique([...], '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 6 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:52:09 --> array_unique() expects parameter 1 to be array, string given
+in APPPATH\Views\entregador.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() expects parameter 1 to be array, string given', 'APPPATH\\Views\\entregador.php', 57, [...])
+ 2 APPPATH\Views\entregador.php(57): array_unique('1', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 6 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:52:29 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\entregador.php on line 57.
+ 1 APPPATH\Views\entregador.php(57): array_unique([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 5 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:52:56 --> Object of class stdClass could not be converted to float
+in APPPATH\Views\entregador.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to float', 'APPPATH\\Views\\entregador.php', 57, [...])
+ 2 APPPATH\Views\entregador.php(57): array_unique([...], '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 6 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:53:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 4 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:53:30 --> Cannot use object of type stdClass as array
+in APPPATH\Views\entregador.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 4 APPPATH\Controllers\Entregador.php(24): view('entregador', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 10:59:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\endereco.php on line 22.
+ 1 APPPATH\Views\endereco.php(22): array_unique([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\endereco.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('endereco', [], true)
+ 5 APPPATH\Controllers\Entregador.php(111): view('endereco', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco('5')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 11:18:29 --> Undefined index: nome
+in APPPATH\Controllers\Entregador.php on line 54.
+ 1 APPPATH\Controllers\Entregador.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nome', 'APPPATH\\Controllers\\Entregador.php', 54, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->create()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 11:19:34 --> Undefined variable: data
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 APPPATH\Controllers\Entregador.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Entregador.php', 51, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->create()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 11:21:11 --> Undefined index: nome
+in APPPATH\Controllers\Entregador.php on line 53.
+ 1 APPPATH\Controllers\Entregador.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nome', 'APPPATH\\Controllers\\Entregador.php', 53, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->create()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:07:51 --> Invalid file: 'form'.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\'form\'.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('\'form\'', [], true)
+ 3 APPPATH\Controllers\Entregador.php(83): view('\'form\'', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:08:22 --> Invalid file: 'form'.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\'form\'.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('\'form\'', [], true)
+ 3 APPPATH\Controllers\Entregador.php(83): view('\'form\'', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:08:23 --> Invalid file: 'form'.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\'form\'.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('\'form\'', [], true)
+ 3 APPPATH\Controllers\Entregador.php(83): view('\'form\'', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:11:35 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 98.
+ 1 APPPATH\Controllers\Entregador.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 98, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:55:03 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 80, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit('38')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:57:31 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 80, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:58:30 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 80, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 12:59:11 --> Undefined index: cd_entregador
+in APPPATH\Controllers\Entregador.php on line 80.
+ 1 APPPATH\Controllers\Entregador.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Controllers\\Entregador.php', 80, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:03:02 --> Undefined variable: _PUT
+in APPPATH\Controllers\Entregador.php on line 86.
+ 1 APPPATH\Controllers\Entregador.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _PUT', 'APPPATH\\Controllers\\Entregador.php', 86, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:12:25 --> Undefined variable: data
+in APPPATH\Controllers\Entregador.php on line 87.
+ 1 APPPATH\Controllers\Entregador.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Entregador.php', 87, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:13:01 --> Undefined variable: id
+in APPPATH\Models\JoinModel.php on line 83.
+ 1 APPPATH\Models\JoinModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\JoinModel.php', 83, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:13:16 --> Undefined variable: cd_entregador
+in APPPATH\Models\JoinModel.php on line 83.
+ 1 APPPATH\Models\JoinModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cd_entregador', 'APPPATH\\Models\\JoinModel.php', 83, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:14:07 --> Undefined variable: builder
+in APPPATH\Models\JoinModel.php on line 94.
+ 1 APPPATH\Models\JoinModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\JoinModel.php', 94, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 13:14:41 --> mysqli_sql_exception: Unknown column 'entregador' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(85): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman(Array)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 13:14:41 --> Unknown column 'entregador' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entregador` SET `entregador` = :entregador:, `endereco` = :endereco:
+WHERE `cd_entregador` IS NULL', [...], false)
+ 5 APPPATH\Models\JoinModel.php(85): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 13:15:24 --> mysqli_sql_exception: Unknown column 'entregador' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(85): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman(Array)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 13:15:24 --> Unknown column 'entregador' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entregador` SET `entregador` = :entregador:, `endereco` = :endereco:
+WHERE `cd_entregador` IS NULL', [...], false)
+ 5 APPPATH\Models\JoinModel.php(85): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 13:16:21 --> mysqli_sql_exception: Unknown column 'entregador' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `enderec...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `enderec...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `enderec...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `enderec...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(90): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman(Array)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 13:16:21 --> Unknown column 'entregador' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `endereco` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_endereco` IS NULL
+AND 0 = \'endereco\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `endereco` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_endereco` IS NULL
+AND 0 = \'endereco\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `endereco` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_endereco` IS NULL
+AND 0 = \'endereco\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `endereco` SET `entregador` = :entregador:, `endereco` = :endereco:
+WHERE `cd_endereco` IS NULL
+AND 0 = :0:', [...], false)
+ 5 APPPATH\Models\JoinModel.php(90): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 13:16:23 --> mysqli_sql_exception: Unknown column 'entregador' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `enderec...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `enderec...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `enderec...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `enderec...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(90): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman(Array)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 13:16:23 --> Unknown column 'entregador' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `endereco` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_endereco` IS NULL
+AND 0 = \'endereco\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `endereco` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_endereco` IS NULL
+AND 0 = \'endereco\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `endereco` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_endereco` IS NULL
+AND 0 = \'endereco\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `endereco` SET `entregador` = :entregador:, `endereco` = :endereco:
+WHERE `cd_endereco` IS NULL
+AND 0 = :0:', [...], false)
+ 5 APPPATH\Models\JoinModel.php(90): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 13:18:20 --> mysqli_sql_exception: Unknown column 'entregador' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(84): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman(Array)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 13:18:20 --> Unknown column 'entregador' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entregador` SET `entregador` = :entregador:, `endereco` = :endereco:
+WHERE `cd_entregador` IS NULL', [...], false)
+ 5 APPPATH\Models\JoinModel.php(84): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:19:15 --> Undefined variable: data
+in APPPATH\Controllers\Entregador.php on line 87.
+ 1 APPPATH\Controllers\Entregador.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Entregador.php', 87, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:19:36 --> Too few arguments to function App\Models\JoinModel::editAddressDeliveryman(), 0 passed in C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php on line 87 and at least 1 expected
+in APPPATH\Models\JoinModel.php on line 79.
+ 1 APPPATH\Controllers\Entregador.php(87): App\Models\JoinModel->editAddressDeliveryman()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:19:56 --> Too few arguments to function App\Models\JoinModel::editAddressDeliveryman(), 0 passed in C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php on line 103 and at least 1 expected
+in APPPATH\Models\JoinModel.php on line 79.
+ 1 APPPATH\Controllers\Entregador.php(103): App\Models\JoinModel->editAddressDeliveryman()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-04 13:20:08 --> mysqli_sql_exception: Unknown column 'entregador' in 'field list' in C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entrega...', 0)
+#1 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entrega...')
+#2 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entrega...')
+#3 C:\xampp\htdocs\crud-codeigniter4\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entrega...', Array, false)
+#4 C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php(84): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\crud-codeigniter4\app\Controllers\Entregador.php(103): App\Models\JoinModel->editAddressDeliveryman(Array)
+#6 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+#7 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-04 13:20:08 --> Unknown column 'entregador' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `entregador` SET `entregador` = (\'mariana salles de abreu morreu\',\'2000-02-02\',\'mrrobot3004@hotmail.com\'), `endereco` = (\'41320010\',\'Castelo Branco\',\'Salvador\',\'BA\',\'\')
+WHERE `cd_entregador` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `entregador` SET `entregador` = :entregador:, `endereco` = :endereco:
+WHERE `cd_entregador` IS NULL', [...], false)
+ 5 APPPATH\Models\JoinModel.php(84): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Entregador.php(103): App\Models\JoinModel->editAddressDeliveryman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:27:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in APPPATH\Models\JoinModel.php on line 83.
+ 1 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:29:13 --> Undefined variable: builder
+in APPPATH\Models\JoinModel.php on line 83.
+ 1 APPPATH\Models\JoinModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\JoinModel.php', 83, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:29:37 --> Undefined variable: builder
+in APPPATH\Models\JoinModel.php on line 83.
+ 1 APPPATH\Models\JoinModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\JoinModel.php', 83, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:30:03 --> Undefined variable: cd_endereco
+in APPPATH\Models\JoinModel.php on line 84.
+ 1 APPPATH\Models\JoinModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cd_endereco', 'APPPATH\\Models\\JoinModel.php', 84, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:31:41 --> You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2122.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2058): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\JoinModel.php(84): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:32:12 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::set(), 0 passed in C:\xampp\htdocs\crud-codeigniter4\app\Models\JoinModel.php on line 84 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 1504.
+ 1 APPPATH\Models\JoinModel.php(84): CodeIgniter\Database\BaseBuilder->set()
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 13:45:46 --> Undefined index: cd_entregador
+in APPPATH\Models\JoinModel.php on line 84.
+ 1 APPPATH\Models\JoinModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cd_entregador', 'APPPATH\\Models\\JoinModel.php', 84, [...])
+ 2 APPPATH\Controllers\Entregador.php(102): App\Models\JoinModel->editAddressDeliveryman([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

@@ -1,0 +1,1464 @@
+CRITICAL - 2022-12-29 09:08:18 --> Too few arguments to function App\Controllers\Entregador::cpf(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->cpf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 09:08:21 --> Too few arguments to function App\Controllers\Entregador::cpf(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->cpf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-29 09:11:13 --> mysqli_sql_exception: Unknown column 'e.cd_entregador' in 'on clause' in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Controllers\Entregador.php(78): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(925): App\Controllers\Entregador->cpf('1')
+#7 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-29 09:11:13 --> Unknown column 'e.cd_entregador' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `endereco`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `endereco`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `endereco`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `endereco`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(78): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->cpf('1')
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 09:11:42 --> Class '1' not found
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-29 10:05:43 --> Undefined variable: endereco
+in APPPATH\Views\teste.php on line 9.
+ 1 APPPATH\Views\teste.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: endereco', 'APPPATH\\Views\\teste.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(28): view('teste')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->mostrarEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:08:03 --> print_r() expects at least 1 parameter, 0 given
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expects at least 1 parameter, 0 given', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 APPPATH\Controllers\Entregador.php(33): print_r()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:08:43 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:07 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:08 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:08 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:08 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:09 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:09 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:09:24 --> Undefined variable: JoinModel
+in APPPATH\Controllers\Entregador.php on line 34.
+ 1 APPPATH\Controllers\Entregador.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: JoinModel', 'APPPATH\\Controllers\\Entregador.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:24:19 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:33:07 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:33:07 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:33:08 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:33:08 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:34:15 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:34:16 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:34:16 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:34:17 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:34:17 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:34:17 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:35:07 --> Undefined property: App\Controllers\Entregador::$JoinModel
+in APPPATH\Controllers\Entregador.php on line 33.
+ 1 APPPATH\Controllers\Entregador.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$JoinModel', 'APPPATH\\Controllers\\Entregador.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:35:32 --> Too few arguments to function App\Controllers\Entregador::modelEndereco(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:45:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Entregador.php(35): CodeIgniter\Model->__call('result', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:46:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Entregador.php(26): CodeIgniter\Model->__call('result', [])
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Entregador->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:48:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Entregador.php(26): CodeIgniter\Model->__call('result', [])
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Entregador->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:48:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Entregador.php(26): CodeIgniter\Model->__call('getResult', [])
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Entregador->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:48:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Entregador.php(26): CodeIgniter\Model->__call('getResult', [])
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Entregador->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:48:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Entregador.php(26): CodeIgniter\Model->__call('getResult', [])
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Entregador->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:55:41 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Entregador.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('entregador')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('entregador')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('entregador')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:55:46 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Entregador.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('entregador/mostrarendereco')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('entregador/mostrarendereco')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('entregador/mostrarendereco')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:56:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Entregador.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->mostrarEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:56:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Entregador.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->mostrarEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:58:43 --> Undefined property: App\Controllers\Entregador::$joinModel
+in APPPATH\Controllers\Entregador.php on line 29.
+ 1 APPPATH\Controllers\Entregador.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$joinModel', 'APPPATH\\Controllers\\Entregador.php', 29, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 10:59:32 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Entregador.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:05:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:05:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:07:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:07:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:07:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:07:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:07:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:08:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(37): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:08:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(37): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:08:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(37): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:08:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(37): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:08:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(37): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:08:49 --> Too few arguments to function App\Models\JoinModel::mostrarEndereco(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Controllers\Entregador.php on line 29 and exactly 1 expected
+in APPPATH\Models\JoinModel.php on line 19.
+ 1 APPPATH\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:09:15 --> Too few arguments to function App\Controllers\Entregador::modelEndereco(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:09:27 --> Too few arguments to function App\Controllers\Entregador::modelEndereco(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-29 11:10:43 --> mysqli_sql_exception: Column 'cd_entregador' in field list is ambiguous in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `e`.`nm_...', 0)
+#1 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`nm_...')
+#2 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`nm_...')
+#3 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`nm_...', Array, false)
+#4 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Models\JoinModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+#6 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+#7 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-29 11:10:43 --> Column 'cd_entregador' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', [], false)
+ 5 APPPATH\Models\JoinModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-29 11:10:55 --> mysqli_sql_exception: Column 'cd_entregador' in field list is ambiguous in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `e`.`nm_...', 0)
+#1 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`nm_...')
+#2 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`nm_...')
+#3 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`nm_...', Array, false)
+#4 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Models\JoinModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+#6 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+#7 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-29 11:10:55 --> Column 'cd_entregador' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', [], false)
+ 5 APPPATH\Models\JoinModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-29 11:10:57 --> mysqli_sql_exception: Column 'cd_entregador' in field list is ambiguous in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `e`.`nm_...', 0)
+#1 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`nm_...')
+#2 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`nm_...')
+#3 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`nm_...', Array, false)
+#4 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Models\JoinModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+#6 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+#7 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#8 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-29 11:10:57 --> Column 'cd_entregador' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`nm_entregador` as `nome`, `e`.`dt_nascimento` as `nascimento`, `e`.`ds_email` as `email`, `p`.`cep` as `cep`, `p`.`bairro` as `bairro`, `p`.`cidade` as `cidade`, `p`.`estado` as `estado`, `p`.`endereco` as `endereco`, `cd_entregador`
+FROM `entregador` `e`
+JOIN `endereco` `p` ON `p`.`cd_entregador` = `e`.`cd_entregador`', [], false)
+ 5 APPPATH\Models\JoinModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:17:50 --> Undefined variable: entregador
+in APPPATH\Views\teste.php on line 11.
+ 1 APPPATH\Views\teste.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: entregador', 'APPPATH\\Views\\teste.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(97): view('teste')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->teste()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:18:11 --> Undefined variable: query
+in APPPATH\Views\teste.php on line 11.
+ 1 APPPATH\Views\teste.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query', 'APPPATH\\Views\\teste.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(97): view('teste')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->teste()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:19:45 --> Undefined variable: entregador
+in APPPATH\Views\teste.php on line 11.
+ 1 APPPATH\Views\teste.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: entregador', 'APPPATH\\Views\\teste.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(30): view('teste', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:21:00 --> Undefined variable: entregador
+in APPPATH\Views\teste.php on line 11.
+ 1 APPPATH\Views\teste.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: entregador', 'APPPATH\\Views\\teste.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(30): view('teste')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:24:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\teste.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 4 APPPATH\Controllers\Entregador.php(31): view('teste', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:24:49 --> Undefined property: stdClass::$cd_entregador
+in APPPATH\Views\teste.php on line 13.
+ 1 APPPATH\Views\teste.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$cd_entregador', 'APPPATH\\Views\\teste.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(31): view('teste', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:26:57 --> Undefined property: stdClass::$cd_entregador
+in APPPATH\Views\teste.php on line 13.
+ 1 APPPATH\Views\teste.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$cd_entregador', 'APPPATH\\Views\\teste.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(31): view('teste', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:28:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(38): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:30:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(38): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:30:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(187): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 4 APPPATH\Controllers\Entregador.php(79): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:32:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(38): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:33:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(38): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:33:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(38): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:34:11 --> Undefined variable: pager
+in APPPATH\Views\teste.php on line 71.
+ 1 APPPATH\Views\teste.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\teste.php', 71, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(31): view('teste', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:34:13 --> Undefined variable: pager
+in APPPATH\Views\teste.php on line 71.
+ 1 APPPATH\Views\teste.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\teste.php', 71, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teste.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('teste', [], true)
+ 5 APPPATH\Controllers\Entregador.php(31): view('teste', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->modelEndereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:37:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(575): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1108): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Entregador.php(38): CodeIgniter\BaseModel->paginate(5)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:39:00 --> Undefined variable: pager
+in APPPATH\Views\entregador.php on line 71.
+ 1 APPPATH\Views\entregador.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\entregador.php', 71, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregador.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('entregador', [], true)
+ 5 APPPATH\Controllers\Entregador.php(29): view('entregador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:39:15 --> Undefined property: App\Controllers\Entregador::$enderecoModel
+in APPPATH\Controllers\Entregador.php on line 84.
+ 1 APPPATH\Controllers\Entregador.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$enderecoModel', 'APPPATH\\Controllers\\Entregador.php', 84, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:39:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(187): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 4 APPPATH\Controllers\Entregador.php(69): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:49:51 --> Too few arguments to function App\Models\JoinModel::mostrarEndereco(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\app\Controllers\Entregador.php on line 29 and exactly 1 expected
+in APPPATH\Models\JoinModel.php on line 9.
+ 1 APPPATH\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:51:28 --> Undefined property: App\Controllers\Entregador::$enderecoModel
+in APPPATH\Controllers\Entregador.php on line 84.
+ 1 APPPATH\Controllers\Entregador.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$enderecoModel', 'APPPATH\\Controllers\\Entregador.php', 84, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:51:49 --> Undefined property: App\Controllers\Entregador::$enderecoModel
+in APPPATH\Controllers\Entregador.php on line 84.
+ 1 APPPATH\Controllers\Entregador.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$enderecoModel', 'APPPATH\\Controllers\\Entregador.php', 84, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:51:50 --> Undefined property: App\Controllers\Entregador::$enderecoModel
+in APPPATH\Controllers\Entregador.php on line 84.
+ 1 APPPATH\Controllers\Entregador.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Entregador::$enderecoModel', 'APPPATH\\Controllers\\Entregador.php', 84, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:52:13 --> Cannot use object of type stdClass as array
+in APPPATH\Views\endereco.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('endereco', [], true)
+ 4 APPPATH\Controllers\Entregador.php(84): view('endereco', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:54:13 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:55:11 --> Call to a member function save() on array
+in APPPATH\Controllers\Entregador.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 11:55:55 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:05:14 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:06:24 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:06:45 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:10:48 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:11:50 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:40:22 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:40:43 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:41:31 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:54:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(397): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Entregador.php(35): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:57:57 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 12:59:24 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:01:14 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:01:16 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:04:34 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:20:03 --> Allowed fields must be specified for model: App\Models\JoinModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JoinModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Entregador.php(54): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:21:34 --> Undefined variable: builder
+in APPPATH\Models\JoinModel.php on line 16.
+ 1 APPPATH\Models\JoinModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\JoinModel.php', 16, [...])
+ 2 APPPATH\Controllers\Entregador.php(29): App\Models\JoinModel->mostrarEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:21:36 --> Undefined variable: builder
+in APPPATH\Models\JoinModel.php on line 16.
+ 1 APPPATH\Models\JoinModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\JoinModel.php', 16, [...])
+ 2 APPPATH\Controllers\Entregador.php(80): App\Models\JoinModel->mostrarEndereco()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:21:57 --> syntax error, unexpected '}'
+in APPPATH\Models\JoinModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\JoinModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\JoinModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\JoinModel')
+ 4 APPPATH\Controllers\Entregador.php(16): spl_autoload_call('App\\Models\\JoinModel')
+ 5 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Entregador->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:33:51 --> Too few arguments to function App\Controllers\Entregador::edit(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:33:52 --> Too few arguments to function App\Controllers\Entregador::edit(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:33:53 --> Too few arguments to function App\Controllers\Entregador::edit(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:33:58 --> Too few arguments to function App\Controllers\Entregador::edit(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:34:36 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:34:53 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Entregador.php(53): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:35:14 --> Undefined variable: id
+in APPPATH\Controllers\Entregador.php on line 53.
+ 1 APPPATH\Controllers\Entregador.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Controllers\\Entregador.php', 53, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:35:29 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:36:05 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:36:43 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:37:40 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:39:17 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:03 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:06 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:24 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:48 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:49 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:49 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:49 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:50 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:50 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:50 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:50 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:50 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:51 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:51 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:51 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:51 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:40:57 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:41:19 --> Too few arguments to function App\Controllers\Entregador::store(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->store()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:46:00 --> Too few arguments to function App\Controllers\Entregador::delete(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 13:46:14 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 406.
+ 1 SYSTEMPATH\BaseModel.php(985): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Entregador.php(34): CodeIgniter\BaseModel->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:24:49 --> Trying to get property 'p' of non-object
+in APPPATH\Views\endereco.php on line 25.
+ 1 APPPATH\Views\endereco.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'p\' of non-object', 'APPPATH\\Views\\endereco.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\endereco.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('endereco', [], true)
+ 5 APPPATH\Controllers\Entregador.php(80): view('endereco', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:25:08 --> Trying to get property 'cd_endereco' of non-object
+in APPPATH\Views\endereco.php on line 25.
+ 1 APPPATH\Views\endereco.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'cd_endereco\' of non-object', 'APPPATH\\Views\\endereco.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\endereco.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('endereco', [], true)
+ 5 APPPATH\Controllers\Entregador.php(80): view('endereco', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:27:06 --> Undefined property: stdClass::$endereco
+in APPPATH\Views\endereco.php on line 30.
+ 1 APPPATH\Views\endereco.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$endereco', 'APPPATH\\Views\\endereco.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\endereco.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('endereco', [], true)
+ 5 APPPATH\Controllers\Entregador.php(80): view('endereco', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->endereco()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:43:38 --> Trying to get property 'nome' of non-object
+in APPPATH\Controllers\Entregador.php on line 27.
+ 1 APPPATH\Controllers\Entregador.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nome\' of non-object', 'APPPATH\\Controllers\\Entregador.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:43:53 --> Undefined index: nome
+in APPPATH\Controllers\Entregador.php on line 27.
+ 1 APPPATH\Controllers\Entregador.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nome', 'APPPATH\\Controllers\\Entregador.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:57:03 --> Too few arguments to function App\Controllers\Entregador::edit(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-29 14:59:33 --> Too few arguments to function App\Controllers\Entregador::edit(), 0 passed in C:\xampp\htdocs\crud-php\crudwithbasicphp\crud_basico_PHP\codeigniter4-framework-543dd5e\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Entregador.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Entregador->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
