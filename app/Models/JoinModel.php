@@ -76,7 +76,7 @@ class JoinModel extends Model
         return $query;
     }
 
-    public function editAddressDeliveryman($data, $cd_entregador = null, $cd_endereco = null)
+    public function editAddressDeliveryman($data)
     {
         
         //table entregador
