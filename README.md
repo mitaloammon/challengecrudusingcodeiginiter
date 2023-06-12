@@ -1,13 +1,14 @@
-# Crud usando o Framework CodeIgniter 4
+## Crud using CodeIgniter 4 Framework
 
+Basic Crud using CodeIgniter 4^ as a development tool.
 
-Crud Básico utilizando o CodeIgniter 4 como ferramenta de desenvolvimento.
+### Run the Application
 
-## Run the Application
+- Cloned the repository on your machine, go to your system's terminal and run the command:
 
-*`php spark serve`*
+```php spark serve```
 
-## Server Requirements
+### Server Requirements
 
 PHP version 7.4 or higher is required, with the following extensions installed:
 
